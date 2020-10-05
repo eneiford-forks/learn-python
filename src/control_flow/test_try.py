@@ -56,7 +56,6 @@ def test_try():
     # error or not.
     message = ''
     try:
-        # pylint: undefined-variable
         print(not_existing_variable)  # noqa: F821
     except NameError:
         message += 'Something went wrong.'

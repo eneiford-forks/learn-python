@@ -15,7 +15,7 @@ def test_pass_in_function():
 
     The pass statement below is silently ignored but it makes current test_pass() function valid.
     """
-    pass
+    #pass
 
 
 def test_pass_in_loop():
@@ -43,4 +43,4 @@ class MyEmptyClass:
 
     "Pass" is commonly used for creating minimal classes like current one.
     """
-    pass
+    #pass
