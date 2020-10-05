@@ -4,6 +4,9 @@ python:
 
 # Install dependencies.
 install:
+  - pip install -U pip
+  - pip install -U pytest
+  - pip install -U pylint
   - pip install -r requirements.txt
 
 # Run linting and tests.
