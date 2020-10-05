@@ -1,6 +1,6 @@
 language: python
 python:
-  - "3.8.5"
+  - "3.7"
 
 # Install dependencies.
 install:
@@ -9,7 +9,7 @@ install:
 # Run linting and tests.
 script:
   - pylint ./src
-#  - flake8 ./src --statistics --count
+  - flake8 ./src --statistics --count
   - pytest
 
 # Turn email notifications off.
